@@ -1,0 +1,68 @@
+ /*{
+  border: 2px solid blue;
+}*/
+header{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    color: white;
+}
+
+h1:hover{
+    color: black;
+}
+
+body{
+    background-color:lightpink;
+}
+
+main p {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  #quoat{
+    width: 28%;
+  }
+
+  #president{
+    font-weight: bold;
+    font-size: 1.5em;
+    
+  }
+
+  #list{
+    width: 20%;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  img{
+    width: 8%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #quoat2{
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  footer{
+    margin-top: 10px;
+  }
+  footer p{
+    width: 15%;
+    margin: 0 auto; 
+    display: block; 
+    text-align: center;
+    font-weight: bold;
+}
