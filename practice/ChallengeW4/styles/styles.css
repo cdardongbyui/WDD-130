@@ -40,6 +40,10 @@ main p {
     font-weight: bold;
   }
 
+  li{
+    margin-bottom: 10px;
+  }
+
   img{
     width: 8%;
     display: block;
