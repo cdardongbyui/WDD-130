@@ -1,0 +1,20 @@
+
+
+#web-img{
+    width: 100%;
+    }
+
+#img-box{
+    padding: 50px ;
+    height: 250px;
+    background-color: gray;
+    
+}
+
+.card-img{
+    border: 10px solid rgb(46, 46, 46);
+    height: 250px;
+    border-radius:50% ;
+    background-position: 50%;
+    
+}
