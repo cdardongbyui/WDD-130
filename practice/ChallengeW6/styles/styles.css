@@ -1,0 +1,59 @@
+/*{
+    border: 2px solid red;
+}*/
+
+
+
+.item1 { grid-area: menu;
+background-color: white;
+font-size: 100px; 
+background-image: url(../images/w06_cherries.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 75%;
+
+}
+
+
+
+.tart{
+    text-align:right;
+    padding-right: 50px;
+}
+
+.item2 { grid-area: main;
+    background-color: gray;
+    font-size: 100px;
+ }
+
+ .sweet{
+    text-align:left;
+    padding-left: 50px;
+}
+
+.item3 { grid-area: footer; 
+    background-color: gray;
+    color:#D2042D;
+    font-style: bold;
+    font-size: 50px;
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      'menu main '
+      'menu  footer';
+ 
+  background-color: #2196F3;
+  
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+ 
+  
+}
+
